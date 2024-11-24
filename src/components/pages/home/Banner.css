@@ -1,0 +1,104 @@
+/* .banner{
+    background-image: url(../../../assets/young-women-playing-football-team_23-2149044688.avif);
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-color: rgb(78, 76, 76);
+    
+} */
+ .banner {
+     background-image: url(../../../assets/young-women-playing-football-team_23-2149044688.avif);
+     width: 100%;
+     background-size: cover;
+     height: 500px;
+     background-color: rgb(78, 76, 76);
+     position: relative;
+ }
+
+ .banner-content {
+     position: absolute;
+     top: 50%;
+     left: 10%;
+     transform: translateY(-50%);
+     background-color: rgba(0, 0, 0, 0.7);
+     padding: 50px 20px;
+     color: white;
+     font-size: 20px;
+     width: 80%;
+     max-width: 400px;
+     text-align: center;
+     border-radius: 10px;
+ }
+
+ .registration-link {
+     color: white;
+     display: inline-block;
+     margin-top: 10px;
+     text-decoration: underline;
+ }
+
+ .book-now-btn {
+     background-color: khaki;
+     margin-top: 20px;
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+ }
+
+ .info-section {
+     background-color: darkred;
+     color: white;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+     padding: 0px 0;
+ }
+
+ .info-item {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     margin: 10px;
+     text-align: center;
+ }
+
+ .info-icon {
+     font-size: 25px;
+ }
+
+ /* Responsive Design */
+ @media (max-width: 768px) {
+     .banner-content {
+         left: 5%;
+         width: 60%;
+         font-size: 18px;
+     }
+
+     .info-section {
+         flex-direction: column;
+         text-align: center;
+     }
+
+     .info-item {
+         flex-direction: column;
+         gap: 5px;
+     }
+
+     .book-now-btn {
+         padding: 10px;
+         font-size: 14px;
+     }
+ }
+
+ @media (max-width: 480px) {
+     .banner-content {
+         font-size: 16px;
+         padding: 20px;
+     }
+
+     .book-now-btn {
+         font-size: 12px;
+         padding: 8px;
+     }
+ }

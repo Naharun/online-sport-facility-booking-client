@@ -1,0 +1,18 @@
+.testimonials-slider {
+    padding: 50px 20px;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.testimonials-slider h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonials-slider .ant-card {
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

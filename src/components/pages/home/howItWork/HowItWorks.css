@@ -1,0 +1,22 @@
+.how-it-works-step {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.how-it-works-step-icon {
+    font-size: 36px;
+    color: #1890ff;
+    margin-bottom: 10px;
+}
+
+.how-it-works-connector {
+    height: 1px;
+    width: 100%;
+    margin: 0 auto;
+    background: #e0e0e0;
+    border-top: dashed 2px #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
